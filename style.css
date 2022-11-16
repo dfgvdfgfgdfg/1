@@ -1,0 +1,47 @@
+body{
+    animation-name:two;
+    animation-duration: 10s;
+    text-align: center;
+    background-color:greenyellow;
+}
+#score{
+    font-size:20px;
+    float:left;
+    margin-left: 50px;
+}
+#timer{
+    font-size:20px;
+    float:right;
+    margin-left: 50px;
+}
+#p3{
+    color:red;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#show_sketch{
+    float:right;
+}
+#h1{
+    animation-name:one;
+    animation-duration:10s;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@keyframes one{
+    from{font-size: 15px;;}
+    to{font-size:40px;}
+}
+@keyframes two{
+    from{background-color:red;}
+    to{background-color:orange;}
+}
+p{
+    font-size: 30px;
+}
+#canvas{
+    border-radius: 4px;
+}
